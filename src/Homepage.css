@@ -1,0 +1,26 @@
+.Homepage {
+    margin: 50px auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.Home-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.Home-links a {
+    display: flex;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Home-links a:hover {
+    background-color: #0056b3;
+}

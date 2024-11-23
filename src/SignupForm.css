@@ -1,0 +1,51 @@
+.SignupForm {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.SignupForm h1 {
+    text-align: left;
+}
+
+.SignupForm form div {
+    margin-bottom: 15px;
+}
+
+.SignupForm label {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.SignupForm input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.SignupForm .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.signup-btn {
+    display: flex;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.SignupForm button:hover {
+    background-color: #0056b3;
+}

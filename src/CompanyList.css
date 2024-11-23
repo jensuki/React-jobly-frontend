@@ -1,0 +1,30 @@
+.CompanyList,
+.JobList {
+    margin: 50px auto;
+}
+
+.CompanyList-all {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.CompanyList h1,
+.JobList h1 {
+    color: white;
+}
+
+form input {
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+button {
+    padding: 7px;
+    border-radius: 5px;
+}

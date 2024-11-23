@@ -1,0 +1,24 @@
+.CompanyDetail,
+.CompanyDetail-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+}
+
+.CompanyDetail-info {
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.CompanyDetail-jobs {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+}

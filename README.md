@@ -1,2 +1,2 @@
-# React Jobly Frontend + Backend
+# React Jobly Frontend
 React Jobly 'Frontend' integration

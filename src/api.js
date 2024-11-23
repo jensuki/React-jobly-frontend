@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
-console.log(BASE_URL)
-
+console.log('BASE_URL:', BASE_URL)
 /** API Class.
  *
  * Static class tying together methods used to get/send to to the API.
@@ -13,6 +12,7 @@ console.log(BASE_URL)
 
 class JoblyApi {
   // the token for interactive with the API will be stored here.
+
   static token;
 
   static async request(endpoint, data = {}, method = "get") {
@@ -21,6 +21,7 @@ class JoblyApi {
     //there are multiple ways to pass an authorization token, this is how you pass it in the header.
     //this has been provided to show you another way to pass the token. you are only expected to read this code for this project.
     const url = `${BASE_URL}/${endpoint}`;
+
     const headers = { Authorization: `Bearer ${JoblyApi.token}` };
     const params = (method === "get")
       ? data

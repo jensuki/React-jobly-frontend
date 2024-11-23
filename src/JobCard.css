@@ -10,6 +10,10 @@
 
 }
 
+.JobCard p {
+    background: rgb(252, 227, 231);
+}
+
 .JobCard-title {
     font-size: 1.2em;
     font-weight: bold;

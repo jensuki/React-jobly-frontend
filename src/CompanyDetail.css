@@ -8,15 +8,25 @@
     text-align: left;
 }
 
+.CompanyDetail h1,
+.CompanyDetail-info h2,
+.CompanyDetail-info p {
+    color: white;
+}
+
 .CompanyDetail-info {
     width: 500px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px;
 }
 
 .CompanyDetail-jobs {
     text-align: center;
     margin-top: 20px;
+}
+
+.CompanyDetail-jobs h3 {
+    color: white;
 }
 
 .error {
